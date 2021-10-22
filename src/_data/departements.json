@@ -118,11 +118,11 @@
     "chef_lieu": "Foix",
     "villes": ["Pamiers", "Saint-Girons"],
     "images": [
-      { "number": "1", "caption": "xxxxxxxxxxx" },
-      { "number": "2", "caption": "xxxxxxxxxxx" },
-      { "number": "3", "caption": "xxxxxxxxxxx" },
-      { "number": "4", "caption": "xxxxxxxxxxx" },
-      { "number": "5", "caption": "xxxxxxxxxxx" }
+      { "number": "1", "caption": "Foix" },
+      { "number": "2", "caption": "Saint-Girons" },
+      { "number": "3", "caption": "Étang de Laurenti" },
+      { "number": "4", "caption": "Tarascon-sur-Ariège" },
+      { "number": "5", "caption": "Le Château de Montségur" }
     ]
   },
   {
@@ -132,11 +132,11 @@
     "chef_lieu": "Troyes",
     "villes": ["Bar-sur-Aube", "Nogent-sur-Seine"],
     "images": [
-      { "number": "1", "caption": "xxxxxxxxxxx" },
-      { "number": "2", "caption": "xxxxxxxxxxx" },
-      { "number": "3", "caption": "xxxxxxxxxxx" },
-      { "number": "4", "caption": "xxxxxxxxxxx" },
-      { "number": "5", "caption": "xxxxxxxxxxx" }
+      { "number": "1", "caption": "Troyes" },
+      { "number": "2", "caption": "Bar-sur-Aube" },
+      { "number": "3", "caption": "Le moulin Sassot de Nogent-sur-Seine" },
+      { "number": "4", "caption": "Le lac d’Orient" },
+      { "number": "5", "caption": "Moulin à vent de Dosches" }
     ]
   },
   {
@@ -146,6 +146,48 @@
     "chef_lieu": "Carcassonne",
     "villes": ["Limoux", "Narbonne"],
     "images": [
+      { "number": "1", "caption": "Narbonne" },
+      { "number": "2", "caption": "Carcassonne" },
+      { "number": "3", "caption": "Gruissan" },
+      { "number": "4", "caption": "Lagrasse" },
+      { "number": "5", "caption": "Le Somail" }
+    ]
+  },
+  {
+    "numero": 12,
+    "departement": "Aveyron",
+    "region": "Occitanie",
+    "chef_lieu": "Rodez",
+    "villes": ["Millau", "Villefranche-de-Rouergue"],
+    "images": [
+      { "number": "1", "caption": "Plateau du Larzac" },
+      { "number": "2", "caption": "Parc naturel régional des Grands Causses" },
+      { "number": "3", "caption": "Belcastel" },
+      { "number": "4", "caption": "Millau et son viaduc" },
+      { "number": "5", "caption": "Cathédrale Notre-Dame de Rodez" }
+    ]
+  },
+  {
+    "numero": 13,
+    "departement": "Bouches-du-Rhône",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "chef_lieu": "Marseille",
+    "villes": ["Aix-en-Provence", "Arles", "Istres"],
+    "images": [
+      { "number": "1", "caption": "Vieux-Port de Marseille" },
+      { "number": "2", "caption": "Château d’If" },
+      { "number": "3", "caption": "Parc national des Calanques" },
+      { "number": "4", "caption": "Arènes d'Arles" },
+      { "number": "5", "caption": "Aix-en-Provence" }
+    ]
+  },
+  {
+    "numero": 14,
+    "departement": "Calvados",
+    "region": "Normandie",
+    "chef_lieu": "Caen",
+    "villes": ["Bayeux", "Lisieux", "Vire"],
+    "images": [
       { "number": "1", "caption": "xxxxxxxxxxx" },
       { "number": "2", "caption": "xxxxxxxxxxx" },
       { "number": "3", "caption": "xxxxxxxxxxx" },
@@ -154,46 +196,46 @@
     ]
   },
   {
-    "numero": 12,
-    "departement": "Aveyron",
-    "region": "Occitanie",
-    "chef_lieu": "Rodez",
-    "villes": ["Millau", "Villefranche-de-Rouergue"]
-  },
-  {
-    "numero": 13,
-    "departement": "Bouches-du-Rhône",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "chef_lieu": "Marseille",
-    "villes": ["Aix-en-Provence", "Arles", "Istres"]
-  },
-  {
-    "numero": 14,
-    "departement": "Calvados",
-    "region": "Normandie",
-    "chef_lieu": "Caen",
-    "villes": ["Bayeux", "Lisieux", "Vire"]
-  },
-  {
     "numero": 15,
     "departement": "Cantal",
     "region": "Auvergne-Rhône-Alpes",
     "chef_lieu": "Aurillac",
-    "villes": ["Mauriac", "Saint-Flour"]
+    "villes": ["Mauriac", "Saint-Flour"],
+    "images": [
+      { "number": "1", "caption": "xxxxxxxxxxx" },
+      { "number": "2", "caption": "xxxxxxxxxxx" },
+      { "number": "3", "caption": "xxxxxxxxxxx" },
+      { "number": "4", "caption": "xxxxxxxxxxx" },
+      { "number": "5", "caption": "xxxxxxxxxxx" }
+    ]
   },
   {
     "numero": 16,
     "departement": "Charente",
     "region": "Nouvelle-Aquitaine",
     "chef_lieu": "Angoulême",
-    "villes": ["Cognac", "Confolens"]
+    "villes": ["Cognac", "Confolens"],
+    "images": [
+      { "number": "1", "caption": "xxxxxxxxxxx" },
+      { "number": "2", "caption": "xxxxxxxxxxx" },
+      { "number": "3", "caption": "xxxxxxxxxxx" },
+      { "number": "4", "caption": "xxxxxxxxxxx" },
+      { "number": "5", "caption": "xxxxxxxxxxx" }
+    ]
   },
   {
     "numero": 17,
     "departement": "Charente-Maritime",
     "region": "Nouvelle-Aquitaine",
     "chef_lieu": "La Rochelle",
-    "villes": ["Jonzac", "Rochefort", "Saintes", "Saint-Jean-d'Angély"]
+    "villes": ["Jonzac", "Rochefort", "Saintes", "Saint-Jean-d'Angély"],
+    "images": [
+      { "number": "1", "caption": "xxxxxxxxxxx" },
+      { "number": "2", "caption": "xxxxxxxxxxx" },
+      { "number": "3", "caption": "xxxxxxxxxxx" },
+      { "number": "4", "caption": "xxxxxxxxxxx" },
+      { "number": "5", "caption": "xxxxxxxxxxx" }
+    ]
   },
   {
     "numero": 18,
