@@ -142,3 +142,8 @@ body {
   text-decoration: none;
   border-bottom-width: 3px;
 }
+
+.index hr {
+  width: 100%;
+  border-color: #2223;
+}

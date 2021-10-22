@@ -1,6 +1,6 @@
 ---
 layout: template.njk
-title: Départements
+title: Index des Départements
 ---
 
 <div class="index">
@@ -9,6 +9,8 @@ title: Départements
   <a class="deptlink" href="/departements/{{ dept.numero }}/">{{ dept.departement }}</a>
 {% endfor %}
 </div>
+
+<hr>
 
 <div class="index-numeros">
   {% for dept in departements %}
