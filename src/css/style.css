@@ -43,6 +43,7 @@ body {
   display: block;
   margin-top: 1em;
   border: 1px solid #222;
+  justify-self: center;
   max-width: 100%;
 }
 
@@ -99,28 +100,12 @@ body {
 }
 
 .bigger-image {
-  display: none;
-  position: absolute;
-  bottom: 1em;
-  right: 1em;
   text-decoration: none;
-  background-color: rgba(255, 250, 250, 0.774);
-  width: 2em;
-  height: 2em;
-  justify-content: center;
-  font-size: 1.5rem;
-  align-items: center;
   color: #222;
-  border-radius: 100%;
-  border: 3px solid #222;
 }
 
 .gallery figure:hover figcaption {
   opacity: 1;
-}
-
-.gallery figure:hover .bigger-image {
-  display: flex;
 }
 
 .gallery img {

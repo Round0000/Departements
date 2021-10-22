@@ -21,8 +21,7 @@ titre: "{{ dept.departement }}"
             {% for image in dept.images %}
                 <figure>
                 <img src="/_data/gallery/mini/{{ dept.numero }}-{{ image.number }}.jpg" alt="">
-                <a class="bigger-image" href="/_data/gallery/{{ dept.numero }}-{{ image.number }}.jpg" target="_blank" rel="noopener noreferrer">⤤</a>
-                <figcaption>{{ image.caption }}</figcaption>
+                <a class="bigger-image" href="/_data/gallery/{{ dept.numero }}-{{ image.number }}.jpg" target="_blank" rel="noopener noreferrer"><figcaption>{{ image.caption }}</figcaption></a>
             </figure>
             {% endfor %}
       </div>

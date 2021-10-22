@@ -286,11 +286,11 @@
     "chef_lieu": "Saint-Brieuc",
     "villes": ["Dinan", "Guingamp", "Lannion"],
     "images": [
-      { "number": "1", "caption": "xxxxxxxxxxx" },
-      { "number": "2", "caption": "xxxxxxxxxxx" },
-      { "number": "3", "caption": "xxxxxxxxxxx" },
-      { "number": "4", "caption": "xxxxxxxxxxx" },
-      { "number": "5", "caption": "xxxxxxxxxxx" }
+      { "number": "1", "caption": "La côte de Granit Rose" },
+      { "number": "2", "caption": "Abbaye Maritime de Beauport, à Paimpol" },
+      { "number": "3", "caption": "L’île de Bréhat" },
+      { "number": "4", "caption": "Le Cap Fréhel" },
+      { "number": "5", "caption": "Dinan" }
     ]
   },
   {
@@ -300,11 +300,11 @@
     "chef_lieu": "Guéret",
     "villes": ["Aubusson"],
     "images": [
-      { "number": "1", "caption": "xxxxxxxxxxx" },
-      { "number": "2", "caption": "xxxxxxxxxxx" },
-      { "number": "3", "caption": "xxxxxxxxxxx" },
-      { "number": "4", "caption": "xxxxxxxxxxx" },
-      { "number": "5", "caption": "xxxxxxxxxxx" }
+      { "number": "1", "caption": "Aubusson" },
+      { "number": "2", "caption": "Moutier d’Ahun" },
+      { "number": "3", "caption": "La-Celle-Dunoise" },
+      { "number": "4", "caption": "Felletin" },
+      { "number": "5", "caption": "Boussac" }
     ]
   },
   {
