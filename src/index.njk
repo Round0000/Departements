@@ -1,0 +1,12 @@
+---
+layout: template.njk
+title: Départements
+---
+
+{% for dept in departements %}
+  <a class="deptlink" href="/departements/{{ dept.numero }}/">{{ dept.departement }}</a>
+{% endfor %}
+
+{% for dept in departements %}
+  <a class="deptlink" href="/departements/{{ dept.numero }}/">{{ dept.numero }}</a>
+{% endfor %}
