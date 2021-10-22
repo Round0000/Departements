@@ -188,11 +188,11 @@
     "chef_lieu": "Caen",
     "villes": ["Bayeux", "Lisieux", "Vire"],
     "images": [
-      { "number": "1", "caption": "xxxxxxxxxxx" },
-      { "number": "2", "caption": "xxxxxxxxxxx" },
-      { "number": "3", "caption": "xxxxxxxxxxx" },
-      { "number": "4", "caption": "xxxxxxxxxxx" },
-      { "number": "5", "caption": "xxxxxxxxxxx" }
+      { "number": "1", "caption": "Château de Falaise" },
+      { "number": "2", "caption": "La pointe du Hoc" },
+      { "number": "3", "caption": "Caen" },
+      { "number": "4", "caption": "Omaha Beach, une des cinq plages du débarquement de Normandie" },
+      { "number": "5", "caption": "Honfleur" }
     ]
   },
   {
@@ -202,11 +202,11 @@
     "chef_lieu": "Aurillac",
     "villes": ["Mauriac", "Saint-Flour"],
     "images": [
-      { "number": "1", "caption": "xxxxxxxxxxx" },
-      { "number": "2", "caption": "xxxxxxxxxxx" },
-      { "number": "3", "caption": "xxxxxxxxxxx" },
-      { "number": "4", "caption": "xxxxxxxxxxx" },
-      { "number": "5", "caption": "xxxxxxxxxxx" }
+      { "number": "1", "caption": "Aurillac" },
+      { "number": "2", "caption": "Château de Val" },
+      { "number": "3", "caption": "Viaduc de Garabit" },
+      { "number": "4", "caption": "Puy Mary, vestige du plus grand stratovolcan d'Europe" },
+      { "number": "5", "caption": "Saint-Flour" }
     ]
   },
   {
@@ -216,11 +216,11 @@
     "chef_lieu": "Angoulême",
     "villes": ["Cognac", "Confolens"],
     "images": [
-      { "number": "1", "caption": "xxxxxxxxxxx" },
-      { "number": "2", "caption": "xxxxxxxxxxx" },
-      { "number": "3", "caption": "xxxxxxxxxxx" },
-      { "number": "4", "caption": "xxxxxxxxxxx" },
-      { "number": "5", "caption": "xxxxxxxxxxx" }
+      { "number": "1", "caption": "Cognac" },
+      { "number": "2", "caption": "Angoulême" },
+      { "number": "3", "caption": "Cathédrale Saint-Pierre d'Angoulême" },
+      { "number": "4", "caption": "Aubeterre-sur-Dronne" },
+      { "number": "5", "caption": "Guizengeard et ses carrières d'argile blanche" }
     ]
   },
   {
@@ -230,6 +230,62 @@
     "chef_lieu": "La Rochelle",
     "villes": ["Jonzac", "Rochefort", "Saintes", "Saint-Jean-d'Angély"],
     "images": [
+      { "number": "1", "caption": "La Rochelle" },
+      { "number": "2", "caption": "L’Île d’Aix" },
+      { "number": "3", "caption": "Port de Saint-Martin-de-Ré sur l'Île de Ré" },
+      { "number": "4", "caption": "Fort Boyard" },
+      { "number": "5", "caption": "Saintes" }
+    ]
+  },
+  {
+    "numero": 18,
+    "departement": "Cher",
+    "region": "Centre-Val de Loire",
+    "chef_lieu": "Bourges",
+    "villes": ["Saint-Amand-Montrond", "Vierzon"],
+    "images": [
+      { "number": "1", "caption": "Cathédrale Saint-Étienne à Bourges" },
+      { "number": "2", "caption": "Château de Meillant" },
+      { "number": "3", "caption": "Pôle des Étoiles de Nançay" },
+      { "number": "4", "caption": "Vierzon" },
+      { "number": "5", "caption": "Sancerre et ses vignes" }
+    ]
+  },
+  {
+    "numero": 19,
+    "departement": "Corrèze",
+    "region": "Nouvelle-Aquitaine",
+    "chef_lieu": "Tulle",
+    "villes": ["Brive-la-Gaillarde", "Ussel"],
+    "images": [
+      { "number": "1", "caption": "Collonges-la-Rouge" },
+      { "number": "2", "caption": "Tulle" },
+      { "number": "3", "caption": "Châteaux aux environs de Brive-la-Gaillarde" },
+      { "number": "4", "caption": "Les pans de Travassac" },
+      { "number": "5", "caption": "Curemonte" }
+    ]
+  },
+  {
+    "numero": 21,
+    "departement": "Côte-d'Or",
+    "region": "Bourgogne-Franche-Comté",
+    "chef_lieu": "Dijon",
+    "villes": ["Beaune", "Montbard"],
+    "images": [
+      { "number": "1", "caption": "Dijon" },
+      { "number": "2", "caption": "L’abbaye de Fontenay, 1118" },
+      { "number": "3", "caption": "Beaune" },
+      { "number": "4", "caption": "Semur-en-Auxois" },
+      { "number": "5", "caption": "Châteauneuf-en-Auxois" }
+    ]
+  },
+  {
+    "numero": 22,
+    "departement": "Côtes-d'Armor",
+    "region": "Bretagne",
+    "chef_lieu": "Saint-Brieuc",
+    "villes": ["Dinan", "Guingamp", "Lannion"],
+    "images": [
       { "number": "1", "caption": "xxxxxxxxxxx" },
       { "number": "2", "caption": "xxxxxxxxxxx" },
       { "number": "3", "caption": "xxxxxxxxxxx" },
@@ -238,95 +294,130 @@
     ]
   },
   {
-    "numero": 18,
-    "departement": "Cher",
-    "region": "Centre-Val de Loire",
-    "chef_lieu": "Bourges",
-    "villes": ["Saint-Amand-Montrond", "Vierzon"]
-  },
-  {
-    "numero": 19,
-    "departement": "Corrèze",
-    "region": "Nouvelle-Aquitaine",
-    "chef_lieu": "Tulle",
-    "villes": ["Brive-la-Gaillarde", "Ussel"]
-  },
-  {
-    "numero": 21,
-    "departement": "Côte-d'Or",
-    "region": "Bourgogne-Franche-Comté",
-    "chef_lieu": "Dijon",
-    "villes": ["Beaune", "Montbard"]
-  },
-  {
-    "numero": 22,
-    "departement": "Côtes-d'Armor",
-    "region": "Bretagne",
-    "chef_lieu": "Saint-Brieuc",
-    "villes": ["Dinan", "Guingamp", "Lannion"]
-  },
-  {
     "numero": 23,
     "departement": "Creuse",
     "region": "Nouvelle-Aquitaine",
     "chef_lieu": "Guéret",
-    "villes": ["Aubusson"]
+    "villes": ["Aubusson"],
+    "images": [
+      { "number": "1", "caption": "xxxxxxxxxxx" },
+      { "number": "2", "caption": "xxxxxxxxxxx" },
+      { "number": "3", "caption": "xxxxxxxxxxx" },
+      { "number": "4", "caption": "xxxxxxxxxxx" },
+      { "number": "5", "caption": "xxxxxxxxxxx" }
+    ]
   },
   {
     "numero": 24,
     "departement": "Dordogne",
     "region": "Nouvelle-Aquitaine",
     "chef_lieu": "Périgueux",
-    "villes": ["Bergerac", "Nontron", "Sarlat-la-Canéda"]
+    "villes": ["Bergerac", "Nontron", "Sarlat-la-Canéda"],
+    "images": [
+      { "number": "1", "caption": "xxxxxxxxxxx" },
+      { "number": "2", "caption": "xxxxxxxxxxx" },
+      { "number": "3", "caption": "xxxxxxxxxxx" },
+      { "number": "4", "caption": "xxxxxxxxxxx" },
+      { "number": "5", "caption": "xxxxxxxxxxx" }
+    ]
   },
   {
     "numero": 25,
     "departement": "Doubs",
     "region": "Bourgogne-Franche-Comté",
     "chef_lieu": "Besançon",
-    "villes": ["Montbéliard", "Pontarlier"]
+    "villes": ["Montbéliard", "Pontarlier"],
+    "images": [
+      { "number": "1", "caption": "xxxxxxxxxxx" },
+      { "number": "2", "caption": "xxxxxxxxxxx" },
+      { "number": "3", "caption": "xxxxxxxxxxx" },
+      { "number": "4", "caption": "xxxxxxxxxxx" },
+      { "number": "5", "caption": "xxxxxxxxxxx" }
+    ]
   },
   {
     "numero": 26,
     "departement": "Drôme",
     "region": "Auvergne-Rhône-Alpes",
     "chef_lieu": "Valence",
-    "villes": ["Die", "Nyons"]
+    "villes": ["Die", "Nyons"],
+    "images": [
+      { "number": "1", "caption": "xxxxxxxxxxx" },
+      { "number": "2", "caption": "xxxxxxxxxxx" },
+      { "number": "3", "caption": "xxxxxxxxxxx" },
+      { "number": "4", "caption": "xxxxxxxxxxx" },
+      { "number": "5", "caption": "xxxxxxxxxxx" }
+    ]
   },
   {
     "numero": 27,
     "departement": "Eure",
     "region": "Normandie",
     "chef_lieu": "Évreux",
-    "villes": ["Les Andelys", "Bernay"]
+    "villes": ["Les Andelys", "Bernay"],
+    "images": [
+      { "number": "1", "caption": "xxxxxxxxxxx" },
+      { "number": "2", "caption": "xxxxxxxxxxx" },
+      { "number": "3", "caption": "xxxxxxxxxxx" },
+      { "number": "4", "caption": "xxxxxxxxxxx" },
+      { "number": "5", "caption": "xxxxxxxxxxx" }
+    ]
   },
   {
     "numero": 28,
     "departement": "Eure-et-Loir",
     "region": "Centre-Val de Loire",
     "chef_lieu": "Chartres",
-    "villes": ["Châteaudun", "Dreux", "Nogent-le-Rotrou"]
+    "villes": ["Châteaudun", "Dreux", "Nogent-le-Rotrou"],
+    "images": [
+      { "number": "1", "caption": "xxxxxxxxxxx" },
+      { "number": "2", "caption": "xxxxxxxxxxx" },
+      { "number": "3", "caption": "xxxxxxxxxxx" },
+      { "number": "4", "caption": "xxxxxxxxxxx" },
+      { "number": "5", "caption": "xxxxxxxxxxx" }
+    ]
   },
   {
     "numero": 29,
     "departement": "Finistère",
     "region": "Bretagne",
     "chef_lieu": "Quimper",
-    "villes": ["Brest", "Châteaulin", "Morlaix"]
+    "villes": ["Brest", "Châteaulin", "Morlaix"],
+    "images": [
+      { "number": "1", "caption": "xxxxxxxxxxx" },
+      { "number": "2", "caption": "xxxxxxxxxxx" },
+      { "number": "3", "caption": "xxxxxxxxxxx" },
+      { "number": "4", "caption": "xxxxxxxxxxx" },
+      { "number": "5", "caption": "xxxxxxxxxxx" }
+    ]
   },
   {
     "numero": "2A",
     "departement": "Corse-du-Sud",
     "region": "Corse",
     "chef_lieu": "Ajaccio",
-    "villes": ["Sartène"]
+    "villes": ["Sartène"],
+    "images": [
+      { "number": "1", "caption": "xxxxxxxxxxx" },
+      { "number": "2", "caption": "xxxxxxxxxxx" },
+      { "number": "3", "caption": "xxxxxxxxxxx" },
+      { "number": "4", "caption": "xxxxxxxxxxx" },
+      { "number": "5", "caption": "xxxxxxxxxxx" }
+    ]
   },
   {
     "numero": "2B",
     "departement": "Haute-Corse",
     "region": "Corse",
     "chef_lieu": "Bastia",
-    "villes": ["Calvi", "Corte"]
+    "villes": ["Calvi", "Corte"],
+    "images": [
+      { "number": "1", "caption": "xxxxxxxxxxx" },
+      { "number": "2", "caption": "xxxxxxxxxxx" },
+      { "number": "3", "caption": "xxxxxxxxxxx" },
+      { "number": "4", "caption": "xxxxxxxxxxx" },
+      { "number": "5", "caption": "xxxxxxxxxxx" }
+    ]
   },
   {
     "numero": 30,
