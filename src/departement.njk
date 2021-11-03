@@ -27,7 +27,8 @@ titre: "{{ dept.departement }}"
       </div>
       <img src="/_data/maps/{{ dept.numero }}.svg" alt="" class="map">
 
-      <a class="gtrDept" href="/departements/01" id="goToRandom">Random</a>
+      <a class="gtrDept btn" href="/departements/01" id="goToRandom">Random</a>
+      <button id="showEverything" class="btn">Montrer</button>
 
   <script>
     const goToRandom = document.getElementById('goToRandom');
@@ -143,6 +144,39 @@ titre: "{{ dept.departement }}"
 
     goToRandom.addEventListener('click', e => {
       e.preventDefault();
-      location = `/departements/${deptNumbers[getRandom(1, deptNumbers.length)]}`;
+      location = `/departements/${deptNumbers[getRandom(0, deptNumbers.length - 1)]}`;
     })
+
+
+    console.log(localStorage.getItem('showMap'));
+
+    const elementName = document.querySelector('.departement');
+    const elementNumber = document.querySelector('.numero');
+    const elementGallery = document.querySelector('.gallery');
+    const elementMap = document.querySelector('.map');
+
+
+    if (localStorage.getItem('showName') === "false") {
+      elementName.classList.add('hidden');
+    }
+    if (localStorage.getItem('showNumber') === "false") {
+      elementNumber.classList.add('hidden');
+    }
+    if (localStorage.getItem('showGallery') === "false") {
+      elementGallery.classList.add('hidden');
+    }
+    if (localStorage.getItem('showMap') === "false") {
+      elementMap.classList.add('hidden');
+    }
+
+    const showEverything = document.getElementById('showEverything');
+
+    showEverything.addEventListener('click', e => {
+      const hidden = document.querySelectorAll('.hidden');
+      hidden.forEach(el => {
+        el.classList.remove('hidden');
+      })
+    })
+
+
   </script>

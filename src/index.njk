@@ -3,7 +3,7 @@ layout : template.njk
 title : Index des Départements
 ---
 
-<a href="/departements/01" id="goToRandom">Random</a>
+<a href="/departements/01" id="goToRandom" class="btn">Random</a>
 
 <div class="index">
   <div class="index-departements">
@@ -17,7 +17,29 @@ title : Index des Départements
       <a class="deptlink" href="/departements/{{ dept.numero }}/">
         {{ dept.numero }}</a>
       {% endfor %} </div>
+
+      <hr>
+
+      <form id="settingsForm">
+        <div class="settings">
+          <label>Numéro
+          <input type="checkbox" name="showNumber" checked>
+        </label>
+        <label>Nom
+          <input type="checkbox" name="showName" checked>
+        </label>
+        <label>Galerie
+          <input type="checkbox" name="showGallery" checked>
+        </label>
+        <label>Carte
+          <input type="checkbox" name="showMap" checked>
+        </label>
+        </div>
+
+        <input type="submit" class="btn" value="Sauvegarder">
+      </form>
   </div>
+
   <script>
     const goToRandom = document.getElementById('goToRandom');
     const deptNumbers = [
@@ -132,6 +154,52 @@ title : Index des Départements
 
     goToRandom.addEventListener('click', e => {
       e.preventDefault();
-      location = `/departements/${deptNumbers[getRandom(1, deptNumbers.length)]}`;
+      location = `/departements/${deptNumbers[getRandom(0, deptNumbers.length - 1)]}`;
     })
+
+
+    const settingsForm = document.getElementById('settingsForm');
+
+    localStorage.setItem('showNumber', true);
+    localStorage.setItem('showName', true);
+    localStorage.setItem('showGallery', true);
+    localStorage.setItem('showMap', true);
+
+
+    settingsForm.addEventListener('submit', e => {
+      e.preventDefault();
+
+      if (e.target.showNumber.checked) {
+        localStorage.setItem('showNumber', true);
+        console.log("Le numéro est affiché")
+      } else {
+        localStorage.setItem('showNumber', false);
+        console.log("Le numéro est caché")
+      }
+
+      if (e.target.showName.checked) {
+        localStorage.setItem('showName', true);
+        console.log("Le nom est affiché")
+      } else {
+        localStorage.setItem('showName', false);
+        console.log("Le nom est caché")
+      }
+
+      if (e.target.showGallery.checked) {
+        localStorage.setItem('showGallery', true);
+        console.log("La galerie est affichée")
+      } else {
+        localStorage.setItem('showGallery', false);
+        console.log("La galerie est cachée")
+      }
+
+      if (e.target.showMap.checked) {
+        localStorage.setItem('showMap', true);
+        console.log("La carte est affichée")
+      } else {
+        localStorage.setItem('showMap', false);
+        console.log("La carte est cachée")
+      }
+    })
+
   </script>
