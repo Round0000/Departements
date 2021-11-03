@@ -77,7 +77,7 @@ body {
   grid-row: 4 / 5;
   display: flex;
   gap: 1em;
-  height: calc(150px + 8vw);
+  height: calc(150px + 6vw);
   padding: 1em 0;
   overflow-x: scroll;
 }
@@ -152,4 +152,24 @@ body {
 .index hr {
   width: 100%;
   border-color: #2223;
+}
+
+
+#goToRandom {
+  all: unset;
+  cursor: pointer;
+  padding: .25em 1em;
+  border: 1px solid #4445;
+  border-bottom: 4px solid #555;
+  background-color: #333;
+  color: #fff;
+  width: max-content;
+  border-radius: 4px;
+  margin: 1em auto 2em;
+  grid-column: 2 / 3;
+}
+
+#goToRandom.gtrDept {
+  margin-bottom: 0;
+  margin-top: 2em;
 }
